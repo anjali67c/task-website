@@ -1,0 +1,562 @@
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.navbar{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    img{
+        margin-left: 40px;
+    }
+
+    ul{
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        margin-top: -90px;
+        margin-left: 190px;
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+        li{
+            font-size: 20px;
+            font-weight: bolder;
+            font-family: candara;
+        }
+        
+        i{
+            font-weight: bolder;
+            color: black;
+        }
+    }
+
+    h1{
+        font-family: candara;
+        font-size: 50px;
+        text-align: center;
+        text-shadow: 4px 4px 4px grey;
+    }
+
+    form{
+
+        text-align: center;
+        input{
+            height: 70px;
+            width: 500px;
+            text-align: center;
+            border: 2px solid gainsboro;
+            border-radius: 20px;
+            box-shadow: 2px 2px 2px 2px gainsboro;
+            font-size: 15px;
+        }
+
+        button{
+            height: 50px;
+            width: 150px;
+            font-family: candara;
+            font-size: 20px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 2px 2px gainsboro;
+            border: 2px solid gainsboro;
+            font-weight: bolder;
+        }
+    }
+}
+
+.offers{
+
+    border: 1px solid black;
+    margin-top: -70px;
+    height: 40vh;
+    text-align: center;
+    margin-right: 230px;
+    margin-left: 230px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 2px 2px 2px 2px gainsboro;
+    border: 2px solid transparent; 
+    background-color: white;   
+
+    h1{
+        text-align: center;
+        font-family: candara;
+        font-size: 30px;
+    }
+
+    .sub-offers{
+        display: flex;
+        gap: 40px;
+
+        .sub-offer1{
+            border: 2px solid transparent;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 10px;
+            background-color: red;
+            color: white;
+            border-radius: 5px;
+            box-shadow: 2px 2px 2px 2px gainsboro;
+            font-family: candara;
+            width: 130px;
+
+            button{
+                text-align: center;
+                font-family: candara;
+                background-color: wheat;
+                color: black;
+                font-weight: bolder;
+                width: 70px;
+                border: 2px solid transparent;
+            }
+
+        }
+
+        .sub-offer2{
+
+            border: 2px solid transparent;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 10px;
+            background-color: blue;
+            color: white;
+            border-radius: 5px;
+            box-shadow: 2px 2px 2px 2px gainsboro;
+            font-family: candara;
+            width: 130px;
+
+            button{
+                text-align: center;
+                font-family: candara;
+                background-color: wheat;
+                color: black;
+                font-weight: bolder;
+                width: 70px;
+                border: 2px solid transparent;
+            }
+        }
+
+        .sub-offer3{
+
+            border: 2px solid transparent;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 10px;
+            background-color: sienna;
+            color: white;
+            border-radius: 5px;
+            box-shadow: 2px 2px 2px 2px gainsboro;
+            font-family: candara;
+            width: 130px;
+
+            button{
+                text-align: center;
+                font-family: candara;
+                background-color: wheat;
+                color: black;
+                font-weight: bolder;
+                width: 70px;
+                border: 2px solid transparent;
+            }
+        }
+
+        .sub-offer4{
+
+            border: 2px solid transparent;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 10px;
+            background-color: palevioletred;
+            color: white;
+            border-radius: 5px;
+            box-shadow: 2px 2px 2px 2px gainsboro;
+            font-family: candara;
+            width: 130px;
+
+            button{
+                text-align: center;
+                font-family: candara;
+                background-color: wheat;
+                color: black;
+                font-weight: bolder;
+                width: 70px;
+                border: 2px solid transparent;
+            }
+        }
+
+        .sub-offer5{
+
+            border: 2px solid transparent;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 10px;
+            background-color: fuchsia;
+            color: white;
+            border-radius: 5px;
+            box-shadow: 2px 2px 2px 2px gainsboro;
+            font-family: candara;
+            width: 130px;
+
+            button{
+                text-align: center;
+                font-family: candara;
+                background-color: wheat;
+                color: black;
+                font-weight: bolder;
+                width: 70px;
+                border: 2px solid transparent;
+            }
+        }
+
+        .sub-offer6{
+            
+            border: 2px solid transparent;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 10px;
+            background-color: teal;
+            color: white;
+            border-radius: 5px;
+            box-shadow: 2px 2px 2px 2px gainsboro;
+            font-family: candara;
+            width: 130px;
+
+            button{
+                text-align: center;
+                font-family: candara;
+                background-color: wheat;
+                color: black;
+                font-weight: bolder;
+                width: 70px;
+                border: 2px solid transparent;
+            }
+        }
+
+        .sub-offer7{
+
+            border: 2px solid transparent;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 10px;
+            background-color: olivedrab;
+            color: white;
+            border-radius: 5px;
+            box-shadow: 2px 2px 2px 2px gainsboro;
+            font-family: candara;
+            width: 130px;
+
+            button{
+                text-align: center;
+                font-family: candara;
+                background-color: wheat;
+                color: black;
+                font-weight: bolder;
+                width: 70px;
+                border: 2px solid transparent;
+            }
+        }
+
+    }
+}
+
+h1{
+    font-family: candara;
+    font-size: 40px;
+    margin-left: 20px;
+    text-shadow: 3px 3px 3px gray;
+}
+
+
+.About{
+    display: flex;
+    justify-content: space-evenly;
+    
+    p{
+        margin-left: 30px;
+        margin-right: 60px;
+        font-family: candara;
+        font-size: 20px;
+        font-weight: normal;
+        align-items: center;
+    }
+
+    img{
+        border: 2px solid transparent;
+        border-radius: 40px;
+        box-shadow: 2px 2px 2px 2px black;
+        margin-left: 20px;
+    }
+
+}
+
+
+.head3{
+    font-family: candara;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px gainsboro;
+    margin-left: 20px
+}
+
+
+.booking-bus{
+    background-color: rgb(235, 234, 207);
+
+    img{
+        margin-left: 300px;
+        margin-right: 240px;
+        border-radius: 20px;
+        box-shadow: 3px 3px 3px 3px gray;
+        margin-top: 40px;
+    }
+
+    ul{
+
+        li{
+            font-family: candara;
+            margin-left: 50px;
+            margin-right: 40px;
+        }
+    }
+}
+
+.train-ticket{
+
+    display: flex;
+    gap: 20px;
+
+    .head2{
+        font-family: candara;
+        font-weight: normal;
+        text-shadow: none;
+        margin-top: 50px;
+    }
+
+    img{
+        margin-left: 30px;
+    }
+
+    .sub-class{
+
+        .head2{
+            margin-left: 90px;
+        }
+
+        .para{
+            margin-left: 90px;
+            margin-right: -200px;
+            font-family: candara;
+            font-weight: 700;
+        }
+        ul{
+            
+            margin-top: 30px;
+            li{
+                font-family: candara;
+                margin-left: 120px;
+            }
+        }
+
+        button{
+            height: 50px;
+            width: 150px;
+            background-color: red;
+            color: white;
+            border: 2px solid transparent gainsboro;
+            box-shadow: 2px 2px 2px 2px gainsboro;
+            margin-left: 170px;
+            margin-top: 20px;
+        }
+    }
+}
+
+.head4{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 4px 4px 4px gray;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.flight-ticket{
+    .head6{
+        font-family: candara;
+        font-size: 30px;
+        margin-left: 30px;
+        margin-top: 30px;
+        text-decoration: underline;
+    }
+
+    .para1{
+        margin-left: 30px;
+        margin-right: 80px;
+        font-size: 20px;
+        font-family: candara;
+    }
+
+    form{
+        font-family: candara;
+        text-align: center;
+        border: 2px solid black;
+        margin-left: 300px;
+        margin-right: 300px;
+        padding: 20px;
+        background-image: url(bgflight.jfif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        border: 2px solid transparent;
+        box-shadow: 2px 2px 2px 2px black;
+        margin-top: 50px;
+
+        .head9{
+            font-size: 35px;
+        }
+
+        label{
+            margin-top: -20px;
+            font-size: 20px;
+            text-shadow: 2px 2px 2px gray;
+        }
+
+        input{
+            margin-top: -10px;
+            height: 30px;
+            width: 350px;
+            border: 2px solid transparent;
+            border-radius: 20px;
+            box-shadow: 2px 2px 2px 2px gainsboro;
+        }
+
+        button{
+            margin-bottom: 20px;
+            height: 30px;
+            width: 100px;
+            border-radius: 10px;
+            border: 2px solid transparent;
+            box-shadow: 2px 2px 2px 2px gainsboro;
+        }
+    }
+}
+
+.images{
+    
+    display: flex;
+    justify-content: space-evenly;
+
+    .image1{
+        img{
+            border: 2px solid transparent;
+            border-radius: 50%;
+            box-shadow: 2px 2px 2px 2px black;
+        }
+
+        .head20{
+            font-family: bradley hand ITC;
+            font-size: 25px;
+            margin-left: 30px;
+        }
+    }
+
+    .image2{
+        img{
+            border: 2px solid transparent;
+            border-radius: 50%;
+            box-shadow: 2px 2px 2px 2px black;
+        }
+
+        .head21{
+            font-family: bradley hand ITC;
+            font-size: 25px;
+            text-align: center;
+        }
+    }
+
+    .image3{
+        img{
+            border: 2px solid transparent;
+            border-radius: 50%;
+            box-shadow: 2px 2px 2px 2px black;
+        }
+
+        .head22{
+            font-family: bradley hand ITC;
+            font-size: 25px;
+            margin-left: 30px;
+        }
+    }
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    font-family: candara;
+    background-color: burlywood;
+
+    .footer2{
+        ul{
+            margin-right: -1000px;
+            font-size: 15px;
+        }
+    }
+
+    .footer3{
+        ul{
+            margin-left: -450px;
+        }
+    }
+
+    .footer4{
+        ul{
+            margin-left: -480px;
+        }
+    }
+
+    .icons{
+    margin-left: 60px;
+    gap: 10px;
+    display: flex;
+    background-color: burlywood;
+    .icon1{
+        color: blue;
+    }
+
+    .icon2{
+        color: palevioletred;
+    }
+
+    .icon3{
+        color: lightblue;
+    }
+
+    .icon4{
+        color: blue;
+    }
+}
+}
+
+.icons{
+    padding-left: 550px;
+    gap: 10px;
+    display: flex;
+    background-color: burlywood;
+    .icon1{
+        color: blue;
+    }
+
+    .icon2{
+        color: palevioletred;
+    }
+
+    .icon3{
+        color: lightblue;
+    }
+
+    .icon4{
+        color: blue;
+    }
+}
